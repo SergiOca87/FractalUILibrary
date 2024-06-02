@@ -1,0 +1,13 @@
+{
+    "name": "inmotion-ui-library",
+    "version": "0.1.0",
+    "dependencies": {
+        "@frctl/fractal": "^1.5.15",
+        "sass": "^1.77.4"
+    },
+    "scripts": {
+        "watch:sass": "sass --watch --update --style=expanded scss:css",
+        "fractal:start": "fractal start --sync",
+        "fractal:build": "fractal build"
+    }
+}
