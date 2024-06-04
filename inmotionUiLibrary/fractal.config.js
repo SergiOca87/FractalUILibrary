@@ -42,6 +42,8 @@ fractal.docs.set('path', path.join(__dirname, 'docs'));
 
 fractal.web.set('static.path', __dirname + '/assets');
 
+fractal.web.set('static.path', __dirname + '/public');
+
 
 fractal.web.theme(
     mandelbrot({
